@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body{
+    font-family: Montserrat;
+    background-color: #f4f4f4;
+    height: 100vh;
+    width: 100%;
+    margin: auto;
+}
+
+.nav{
+    width: 100%;
+    background-color: #007bff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav>.links{
+    display: flex;
+    gap: 16px;
+    margin-bottom: 10px;
+    color: #f4f4f4;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.nav>.links>a{
+    text-decoration: none;
+    color: #f4f4f4;
+    padding: 5px;
+    margin-top: -10px;
+}
+
+.nav>.links>a:hover{
+    border: none;
+    border-radius: 7px;
+    background-color: #f4f4f4;
+    color: #007bff;
+    transition: all ease 0.2s;
+}
+
+.blocos {
+  padding: 60px 20px;
+  width: 90%;
+  
+  margin: auto;
+}
+
+h1, h2 {
+  color: #111;
+  margin-bottom: 15px;
+  margin: auto;
+}
+
+p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  width: 900px;
+  margin: auto;
+}
+
+.blocos>span{
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    width: 900px;
+    margin: auto;
+    color: #007bff;
+    font-weight: bolder;
+}
+
+.blocos>article>p>span{
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    width: 900px;
+    margin: auto;
+    color: #007bff;
+    font-weight: bolder;
+}
+.blocos>article>span{
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    width: 900px;
+    margin: auto;
+    color: #007bff;
+    font-weight: bolder;
+}
+
+.blocos {
+  text-align: center;
+  background: #f9f9f9;
+  width: 90%;
+  margin: auto;
+}
+
+.blocos h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: auto;
+}
+
+.blocos p {
+  max-width: 700px;
+  margin: 20px auto;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.estilos-container {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 20px;
+    font-family: "Poppins", sans-serif;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    
+}
+
+.estilo-card img {
+    width: 100%;
+    max-width: 120px;
+    margin: 10px auto;
+    display: block;
+}
+
+.estilos-container h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+/* CARD */
+.estilo-card {
+    border-radius: 10px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    border: 1px solid #dcdcdc;
+    background-color: #007bff;
+    transition: 0.3s ease;
+    
+    
+
+}
+
+.estilo-header {
+    width: 100%;
+    background: #f5f5f5;
+    border: none;
+    text-align: center;
+    font-size: 20px;
+    padding: 15px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+
+.estilo-header:hover {
+    background: #ececec;
+}
+
+.estilo-content {
+    max-height: 0;
+    overflow: hidden;
+    background: white;
+    padding: 0 15px;
+    transition: max-height .4s ease, padding .3s ease;
+}
+
+.estilo-content p {
+    font-size: 16px;
+    padding: 15px 0;
+}
+
+/* ATIVO */
+.estilo-card.active .estilo-content {
+    max-height: 200px;
+    padding: 15px;
+    text-align: center;
+}
+
+footer{
+    background-color: #007bff;
+    text-align: center;
+    margin: auto;
+    border-radius: 6px;
+}
+
+.fontes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+
+}
+
+.fontes>a{
+    text-decoration: none;
+    color: #007bff;
+    background-color: white;
+    padding: 8px;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: all 0.5s;
+}
+
+.fontes>a:hover{
+    background-color: #d6d6d6;
+    
+}
+
+.ft{
+    width: 110px;
+    height: 110px;
+    border-radius: 100%;
+    border: 10px solid white;
+    transition: all 0.5s;
+    
+}
+
+.ft:hover{
+    border: none;
+    width: 140px;
+    height: 140px;
+}
+
+.fotos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    margin: auto;
+}
+
+.integrante h4{
+    color: white;
+}
+
+.box{
+    text-align: center;
+    margin: auto;
+    background-color: #007bff;
+    padding: 30px;
+    max-width: 800px;
+    max-height: 300px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    
+}
+
+
+

@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body{
+    font-family: Montserrat;
+    background-color: #f4f4f4;
+    height: 100vh;
+    width: 100%;
+    margin: auto;
+}
+
+.nav{
+    width: 100%;
+    background-color: #007bff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav>.links{
+    display: flex;
+    gap: 16px;
+    margin-bottom: 10px;
+    color: #f4f4f4;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.nav>.links>a{
+    text-decoration: none;
+    color: #f4f4f4;
+    padding: 5px;
+    margin-top: -10px;
+}
+
+.nav>.links>a:hover{
+    border: none;
+    border-radius: 7px;
+    background-color: #f4f4f4;
+    color: #007bff;
+    transition: all ease 0.2s;
+}
+
+section {
+  padding: 60px 20px;
+  width: 90%;
+  
+  margin: auto;
+}
+
+h1, h2 {
+  color: #111;
+  margin-bottom: 15px;
+  margin: auto;
+}
+
+p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  width: 900px;
+  margin: auto;
+}
+
+#sobre>p,h2{
+    margin: auto;
+}
+
+/* Hero */
+#hero {
+  text-align: center;
+  background: #f9f9f9;
+  width: 90%;
+  margin: auto;
+}
+
+#hero h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: auto;
+}
+
+#hero p {
+  max-width: 700px;
+  margin: 20px auto;
+}
+
+/* Importância */
+#importancia {
+  background: #f0f7ff;
+  text-align: center;
+  width: 90%;
+}
+
+#importancia ul {
+  list-style: none;
+  padding: 0;
+  max-width: 700px;
+  margin: auto;
+  text-align: left;
+}
+
+#conteudos{
+    width: 50%;
+    background-color: white;
+    border-radius: 10px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+#conteudos>ul>li{
+    margin: auto;
+}
+
+
+
+/* CTA Final */
+#cta-final {
+  text-align: center;
+  background: #007bff;
+  color: #fff;
+  width: 90%;
+  margin-top: 20px;
+}
+
+#cta-final h2 {
+  margin-bottom: 20px;
+  mask-border-width: 800px;
+}
+
+/* Botões */
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  background: #007bff;
+  color: #fff;
+  font-size: 1.1rem;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #0056b3;
+}
+
+
+.btn-light {
+  display: inline-block;
+  padding: 14px 28px;
+  background: #fff;
+  color: #007bff;
+  font-size: 1.1rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn-light:hover {
+  background: #e6e6e6;
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.8s ease-out;
+}
+
+/* Estado final (quando aparece) */
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+footer{
+    background-color: #007bff;
+    text-align: center;
+    margin: auto;
+    border-radius: 6px;
+}
+
+.fontes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+
+}
+
+.fontes>a{
+    text-decoration: none;
+    color: #007bff;
+    background-color: white;
+    padding: 8px;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: all 0.5s;
+}
+
+.fontes>a:hover{
+    background-color: #d6d6d6;
+    
+}
